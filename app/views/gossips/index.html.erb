@@ -11,7 +11,6 @@
 
 <% @gossips.each do |gossip| %>
   <tr>
-    <td><%= gossip.title %></td>
     <td><%= gossip.content %></td>
     <td><%= link_to 'Show', gossip %></td>
     <td><%= link_to 'Edit', edit_gossip_path(gossip) %></td>
